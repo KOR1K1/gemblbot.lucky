@@ -95,7 +95,7 @@ async function checkSignal() {
 }
 
 function fetchDataAndUpdate() {
-    fetch('https://lucky-jet-history.gamedev-atech.cc/public/history/api/history/replay')
+    fetch('https://crash-gateway-cc-cr.gamedev-tech.cc/state?id_n=1play_luckyjet&id_i=1', {headers: { Authorization: 'Bearer 2e773cd107fb3947f64498cf2cdd221e' }})
         .then(response => response.json())
         .then(data => {
             const kef = parseFloat(data.current_coefficients);
