@@ -8,7 +8,7 @@ async function checkSignal() {
     let randomNumber1 = getRan(1.1, 1.3).toFixed(2);
     const url = 'https://crash-gateway-cc-cr.gamedev-tech.cc/state?id_n=1play_luckyjet&id_i=1';
     const response = await fetch(url, {
-			headers: { Authorization: 'Bearer demo' }, // Пример токена
+			headers: { Authorization: 'Bearer 2e773cd107fb3947f64498cf2cdd221e' },
 		})
 	const data = await response.json()
     const state = data.state;
